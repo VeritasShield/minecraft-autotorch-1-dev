@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "autotorch",
+  "id": "autotorch_enhanced",
   "version": "${version}",
-  "name": "Autotorch",
-  "description": "Autoplace torches",
+  "name": "Auto Torch Enhanced",
+  "description": "Automatically places torches with advanced server-friendly features.",
   "authors": [
-    "noteness"
+    "noteness",
+    "VeritasShield"
   ],
   "contact": {
-    "homepage": "https://github.com/necessary129/minecraft-autotorch",
-    "issues": "https://github.com/necessary129/minecraft-autotorch/issues",
-    "sources": "https://github.com/necessary129/minecraft-autotorch"
+    "homepage": "https://github.com/VeritasShield/minecraft-autotorch",
+    "issues": "https://github.com/VeritasShield/minecraft-autotorch/issues",
+    "sources": "https://github.com/VeritasShield/minecraft-autotorch"
   },
   "license": "LGPL-3.0-or-later",
   "icon": "assets/autotorch/icon.png",
@@ -25,7 +26,7 @@
   },
   "depends": {
     "fabricloader": ">=0.15.10",
-    "minecraft": "~1.21",
+    "minecraft": "*",
     "java": ">=21",
     "fabric-api": "*"
   }
